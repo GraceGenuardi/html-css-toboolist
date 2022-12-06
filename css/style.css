@@ -4,8 +4,7 @@ padding: 0;
 margin: 0;
 }
 
-body {
-}
+
 
 .header{
     background-color: white;
@@ -18,14 +17,47 @@ body {
     display: inline-block;
     width: 70px;
     height: auto;
-    margin-top: 10px;
-    }
+    margin-top: 10px; 
+    } /*apri ticket*/
 
 .titolo {
     display: inline-block;
     font-size: 60px;
     padding: 10px;
+}
 
+main {
+    height: 1000px;
+    background-color:rgba(187, 184, 184, 0.336);
+    padding: 50px;
+    padding-left: 400px;
     
-    
-    }
+}
+
+.two-button{
+    background-color: white;
+    text-align: left;
+    padding: 20px;
+    padding-left: 50px;
+    width: 1000px;
+    height: 80px;
+    border-radius: 10px;
+}
+
+.add-task{
+    background-color: dodgerblue;
+    width: 90px;
+    height: 40px;
+    color: white;
+    border-color: dodgerblue;
+    border-radius: 5px;
+}
+
+.add-section{
+    background-color:white;
+    width: 100px;
+    height: 40px;
+    color: rgba(172, 166, 166, 0.781);
+    border-color: rgba(172, 166, 166, 0.781);
+    border-radius: 5px;
+}
