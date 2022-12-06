@@ -17,8 +17,8 @@ margin: 0;
     display: inline-block;
     width: 70px;
     height: auto;
-    margin-top: 10px; 
-    } /*apri ticket*/
+   vertical-align: top;
+    } 
 
 .titolo {
     display: inline-block;
@@ -26,9 +26,10 @@ margin: 0;
     padding: 10px;
 }
 
+/*fine header, inizio menù con bottoni*/
 main {
     height: 1000px;
-    background-color:rgba(187, 184, 184, 0.336);
+    background-color:rgba(133, 131, 131, 0.151);
     padding: 50px;
     padding-left: 400px;
     
@@ -60,4 +61,65 @@ main {
     color: rgba(172, 166, 166, 0.781);
     border-color: rgba(172, 166, 166, 0.781);
     border-radius: 5px;
+}
+/*fine menù, inizio sezione con elenchi*/
+.conteiner {
+    background-color: white;
+    margin-top: 5px;
+    width: 1000px;
+    height: 680px;
+    border-radius: 10px;
+    padding: 40px;
+
+
+}
+
+.task {
+    display: inline-block;
+   
+
+
+}
+
+.verify {
+    color: green; 
+    border: 1px solid green;
+    border-radius: 10px;
+    
+    
+
+}
+
+.editorial  {
+    background-color: dodgerblue;
+    width: 60px;
+    height: 20px;
+    color: white;
+    border-color: dodgerblue;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+p{
+display: inline-block;
+font-size: 20px;
+}
+
+.text {
+padding: 5px;
+
+}
+
+.goals  {
+    background-color: rgb(100, 30, 133);
+    width: 70px;
+    height: 20px;
+    color: white;
+    border-color: rgb(100, 30, 133);
+    border-radius: 8px;
+    display: inline-block;
 }
