@@ -76,6 +76,7 @@ main {
 
 .task {
     display: inline-block;
+    padding: 10px;
    
 
 
@@ -85,9 +86,6 @@ main {
     color: green; 
     border: 1px solid green;
     border-radius: 10px;
-    
-    
-
 }
 
 .editorial  {
@@ -104,22 +102,53 @@ h2 {
     font-size: 30px;
 }
 
-p{
-display: inline-block;
-font-size: 20px;
-}
+
 
 .text {
 padding: 5px;
+font-size: 20px;
+display: inline-block;
 
 }
 
+
+
+/* inizio secondo elenco*/
 .goals  {
-    background-color: rgb(100, 30, 133);
+    background-color: rgb(161, 71, 202);
     width: 70px;
     height: 20px;
     color: white;
-    border-color: rgb(100, 30, 133);
+    border-color: rgb(161, 71, 202);
     border-radius: 8px;
     display: inline-block;
 }
+
+.miss {
+    color: red; 
+    border: 1px solid red;
+    border-radius: 10px;
+}
+
+.green  {
+    background-color: rgb(47, 177, 116);
+    width: 70px;
+    height: 20px;
+    color: white;
+    border-color:rgb(47, 177, 116);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.mobile  {
+    background-color: rgb(228, 131, 41);
+    width: 70px;
+    height: 20px;
+    color: white;
+    border-color:rgb(228, 131, 41);
+    border-radius: 8px;
+    display: inline-block;
+}
+
+
+/* inizio terzo e ultimo elenco*/
