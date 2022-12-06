@@ -83,7 +83,7 @@ main {
 .verify {
     color: green; 
     border: 1px solid green;
-    border-radius: 10px;
+    border-radius: 50%;
     margin-right: 5px;
 }
 
@@ -126,7 +126,7 @@ display: inline-block;
 .miss {
     color: red; 
     border: 1px solid red;
-    border-radius: 10px;
+    border-radius: 50%;
     margin-right: 5px;
 }
 
