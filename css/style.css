@@ -2,8 +2,9 @@
 box-sizing: border-box;
 padding: 0;
 margin: 0;
+font-family:sans-serif;
 }
-
+/*dovevi mettere ul,ol,menu {LIST-STYLE:NONE;*/
 
 
 .header{
@@ -17,12 +18,13 @@ margin: 0;
     width: 70px;
     height: auto;
     margin-left: 20px;
+    margin-top: 15px;
    vertical-align: top;
 } 
 
 .titolo {
     display: inline-block;
-    margin-left: 10px;
+    margin-left: 3px;
     margin-bottom: 10px;
     font-size: 60px;
     padding: 10px;
@@ -32,7 +34,7 @@ margin: 0;
 /*fine header, inizio menù con bottoni*/
 main {
     height: 830px;
-    background-color:rgba(214, 209, 209, 0.377);
+    background-color:#eeee;
     padding: 50px;
     padding-left: 400px;
 }
